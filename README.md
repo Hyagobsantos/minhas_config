@@ -14,7 +14,7 @@ export PS1='\[\033[0;33m\]\u\[\033[0;33m\]@\h\[\033[0;32m\] \w\[\033[1;31m\]$(__
 export LS_COLORS='di=1;36'
 ```
 
-## Tmux - Multplexidor 
+## Tmux - Multplexador 
 
 - update e upgrade
   
@@ -41,11 +41,24 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 
-
-
-
-
-
-
+- Criar o arquivo .tmux.conf
+  
+```bash
+touch .tmux.conf
 ```
+
+1. Copiar o conteúdo do arquivo [.tmux.conf](https://github.com/Hyagobsantos/minhas_config/blob/master/.tmux.conf) deste repositório;
+
+2. Usar algum editor de sua preferência e colar o conteúdo copiado anteriormente do ".tmux.conf". Em seguida, salvar o arquivo;
+3. Nesse momento é necessário reiniciar o terminal;
+
+## Aplicando Configurações dos plugins 
+
+- Acesse o Tmux
+```bash
+tmux
+```
+- Dentro do Tmux Execute o seguinte comando
+```bash
+(Ctrl + A ) + Shift + i 
 ```
